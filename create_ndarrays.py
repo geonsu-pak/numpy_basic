@@ -22,8 +22,10 @@ np.ones((3,6))
 # without initializing its values
 np.empty((3,6))
 
-# ([0,......9]
+# ([0,......,9])
 np.arrange(10)
+# convert to 2d
+arr = np.arrange(32).reshape((8,4))
 
 # convert to a different ndarray type
 arr = np.array([1,2,3])
